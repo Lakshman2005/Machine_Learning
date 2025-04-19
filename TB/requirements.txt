@@ -1,0 +1,6 @@
+numpy==1.26.1
+matplotlib
+opencv-python
+mayavi
+configobj
+tensorflow==2.19.0
