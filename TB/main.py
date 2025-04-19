@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import plotly.graph_objs as go
 from scipy.ndimage import gaussian_filter
 
-xray_path = '1.png'
-mask_path = '2.tif'
+xray_path = 'Chest_X-Ray.png'
+mask_path = 'TB_Mask.tif'
 
 xray_image = cv2.imread(xray_path, cv2.IMREAD_GRAYSCALE)
 if xray_image is None:
